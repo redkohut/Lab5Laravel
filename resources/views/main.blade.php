@@ -50,7 +50,7 @@
                     <p class="intro__subtitle">
                         Ми нова генерація розробників ігор 🍌
                     </p>
-                    <form class="button-form">
+                    <form class="button-form" action="https://www.youtube.com/watch?v=-cSFPIwMEq4&ab_channel=dota2">
                         <fieldset class="button-form__wrap">
                             <p class="button-form__info-zhenia">
                                 <button type="video" class="button-form__link">Трейлер до гри</button>
@@ -121,9 +121,13 @@
     
                     <h8 class="intro__pers5title">
                         Sirko Inception 3D
-                    </h8><br><br><br><br><br><br><br><br>
+                    </h8><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    @php
+                        $email_linkApp = 'https://www.apple.com/ua/app-store/';
+                    @endphp
                     <div class="back_button1">
-                        <a href="{{$email_link}}"><img src="/img/app1.png"></a>
+                        
+                        <a href="{{$email_linkApp}}"><img src="/img/app1.png"></a>
                     </div>
                 </div>
         </main>

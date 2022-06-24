@@ -53,7 +53,7 @@
                             <figcaption class="places__card-title">
                                 Lavrin 2D
                             </figcaption>
-                            <a href="#!" class="places__card-link"></a>
+                            <a href="https://www.youtube.com/watch?v=gulj7wwxOzw&ab_channel=GOG.com" class="places__card-link"></a>
                         </figure>
                         
                         <figure class="places__card places__card_size_lg">
@@ -61,7 +61,7 @@
                             <figcaption class="places__card-title">
                                 Stranger
                             </figcaption>
-                            <a href="#!" class="places__card-link"></a>
+                            <a href="https://www.youtube.com/watch?v=gulj7wwxOzw&ab_channel=GOG.com" class="places__card-link"></a>
                         </figure>
     
                         <figure class="places__card places__card_size_sm">
@@ -69,7 +69,7 @@
                             <figcaption class="places__card-title">
                                 Gordon Shop 3D
                             </figcaption>
-                            <a href="#!" class="places__card-link"></a>
+                            <a href="https://www.youtube.com/watch?v=gulj7wwxOzw&ab_channel=GOG.com" class="places__card-link"></a>
                         </figure>
     
                         <figure class="places__card places__card_size_sm">
@@ -77,7 +77,7 @@
                             <figcaption class="places__card-title">
                                 Inception 2D
                             </figcaption>
-                            <a href="#!" class="places__card-link"></a>
+                            <a href="https://www.youtube.com/watch?v=gulj7wwxOzw&ab_channel=GOG.com" class="places__card-link"></a>
                         </figure>
     
                         <figure class="places__card places__card_size_sm">
@@ -85,7 +85,7 @@
                             <figcaption class="places__card-title">
                                 Pidviknom 
                             </figcaption>
-                            <a href="#!" class="places__card-link"></a>
+                            <a href="https://www.youtube.com/watch?v=gulj7wwxOzw&ab_channel=GOG.com" class="places__card-link"></a>
                         </figure>
     
                     </div>

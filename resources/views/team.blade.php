@@ -48,7 +48,7 @@
                     
             
                     </p>
-                    <form class="button-form">
+                    <form class="button-form" action="https://t.me/zheniazk">
                         <fieldset class="button-form__wrap">
                             <p class="button-form__info-zhenia">
                                 <button type="video" class="button-form__link">Телеграм</button>
@@ -65,7 +65,7 @@
                         Ще коли був малим, то полюбляв награвати собі якусь мелодію, а потім дане заняття переросло у рід діяльності.  Згодом закінчив курси у знайомого, де отримав навички із оперуванням мелодій та гри на різних інстурментах. А також вже як три роки займаюся 3D моделюванням в Blender/Zbrush. 
                     
                     </p>
-                    <form class="button-form">
+                    <form class="button-form" action="https://t.me/zheniazk">
                         <fieldset class="button-form__wrap">
                             <p class="button-form__info-sanya">
                                 <button type="video" class="button-form__linksanya">Телеграм</button>
@@ -81,11 +81,12 @@
     
                         Чотири роки тому я ступила на свій творчий шлях і з тих пір продовжую невтомно навчатися та покращувати свої навички. Я дуже люблю створювати щось незвичайне і завжди відкрита до нових ідей. Мої роботи з анімаціями можете подивитися у наших іграх.
                     </p>
-                    <form class="button-form">
+                    <form class="button-form" action="https://t.me/zheniazk">
                         <fieldset class="button-form__wrap">
                             <p class="button-form__info-masha">
                                 <button type="video" class="button-form__linkmasha">Телеграм</button>
                             </p>
+                           
                         </fieldset>
                     </form>
     
@@ -98,7 +99,7 @@
                         Вже пройшло багато років з тих пір як я написав свою першу програму на пайтоні. З тих пір дійсно закохався усім серцем у свою роботу і не можу дочекатися моменти, коли знову включу музику на повну і почну кодити нову гру. Реалізовані мною механіки та процеси ти можеш побачити у скачених іграх.
                     
                     </p>
-                    <form class="button-form">
+                    <form class="button-form" action="https://t.me/zheniazk">
                         <fieldset class="button-form__wrap">
                             <p class="button-form__info-andriy">
                                 <button type="video" class="button-form__linkandriy">Телеграм</button>

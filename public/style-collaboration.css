@@ -515,9 +515,9 @@ body{
 
 .header{
     position: fixed;
-    top: 0;
+    top: -15px;
     left: 0;
-    background-color: #91a2b7;
+    background-color: #909ba8;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
     opacity: 0.85;
@@ -527,7 +527,7 @@ body{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 1px;
+    
     z-index: 2;
 }
 .header__list{
@@ -539,14 +539,7 @@ body{
     transition: all 1s ease;
 }
 .header__item:hover{
-    background-color: #6b8099;
-}
-.header__item1{
-    padding: 15px 10px;
-    transition: all 1.5s ease;
-}
-.header__item1:hover{
-    background-color: #0B0736;
+    background-color: #636c76;
 }
 
 .header__link{
@@ -561,6 +554,7 @@ body{
 .header__link:hover, .header__link:focus, .header__link:active{
     opacity: .75;
 }
+
 /* Header styles end */
 
 
@@ -573,7 +567,7 @@ body{
     min-width: 1060px;
     background: url(../img/bg-collab.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 1px;
+    padding-top: 150px;
 }
 
 .intro__title{
@@ -587,7 +581,7 @@ body{
     letter-spacing: 0.15em;
     color: #000000;
 
-    margin-bottom: 14%;
+    margin-bottom: 1%;
     margin-right: 13px;
     margin-left: 40%;
 }

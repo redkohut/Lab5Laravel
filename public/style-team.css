@@ -441,17 +441,19 @@ body{
     font-family: 'Open Sans';
     font-style: normal;
     font-size: 16px;
+    position: relative;
     line-height: 1.2;
+    overflow-x: hidden;
+    opacity: 1;
     font-weight: normal;
     color: #130F49;
 }
-
-.container{
+/* .container{
     max-width: 1075px;
     margin: 0 auto;
-    padding: 15px 0px;
-}
-/* .wrapper{
+    padding: 15px 10px;
+} */
+.wrapper{
     max-width: 1060px;
     margin: 0 auto;
     
@@ -461,7 +463,7 @@ body{
     max-width: 1060px;
     margin: 0 auto;
     
-} */
+}
 
 @media (max-width:1075px){
     .container{
@@ -493,24 +495,31 @@ body{
 
 }
 
-@media (max-width:676px){
-    .container{
-        max-width: 650px;
-    }
-    .header{
-        width: 50%;
-    }
-    .header__link{
-        font-weight: 350;
-        font-size: 8px;
-        line-height: 45px;
-    }
+/*Largest devices, FullHD*/
+@media only screen and (max-width: 1500px){
+
+}
+/*Large devices, Wide Screens*/
+@media only screen and (max-width: 1200px){
+
+}
+/*Medium devices, Desktops*/
+@media only screen and (max-width: 992px){
+    
+}
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px){
+    
+}
+/*Extra Small Devices, Phone*/
+@media only screen and (max-width: 480px){
+    
+}
+/*Cusrom, Iphone Retina*/
+@media only screen and (max-width: 320px){
+    
 }
 
-/* .wrapper{
-    max-width: 1060px;
-    margin: 0 auto;
-} */
 
 /* Header styles start */
 
@@ -518,14 +527,17 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #a47e7e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
+    opacity: 0.85;
 }
 .header__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 9px;
+    padding-top: 1px;
     z-index: 2;
 }
 .header__list{
@@ -533,16 +545,25 @@ body{
     flex-wrap: wrap;
 }
 .header__item{
-    margin-right: 72px;
+    margin-right: 36px;
+    transition: all 1s ease;
 }
-.header__item:last-child{
-    margin-right: 0;
+.header__item:hover{
+    background-color: #674747;
 }
+.header__item1{
+    padding: 15px 10px;
+    transition: all 1.5s ease;
+}
+.header__item1:hover{
+    background-color: #0B0736;
+}
+
 .header__link{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 85px;
     color: #130F49;
     text-decoration: none;
@@ -585,6 +606,19 @@ body{
 
 .intro__subtitle{
 
+    /* font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    
+    color: #000000; */
+
+    width: 621px;
+    height: 234px;
+    left: 0px;
+    top: 82px;
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -593,7 +627,7 @@ body{
     
     color: #000000;
     margin-left:10px;
-    margin-bottom: 32px;
+    margin-bottom: 5px;
 }
 
 .button-form__info-zhenia{
@@ -614,6 +648,7 @@ body{
     color: #FFFFFF;
     background: #130F49;
     border-radius: 20px;
+    margin-top: -6%;
     margin-bottom: 75%;
    
    
@@ -699,15 +734,18 @@ body{
 
 .intro__pers3subtitle{
 
+    width: 621px;
+    height: 234px;
+    left: 0px;
+
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 19px;
+    line-height: 26px;
     
     color: #000000;
-
-    margin-bottom: 32px;
 }
 
 .button-form__info-masha{
@@ -728,7 +766,8 @@ body{
     color: #FFFFFF;
     background: #130F49;
     border-radius: 20px;
-    margin-bottom: 800px;
+    margin-top: -8%;
+    margin-bottom: 700px;
    
 }
 

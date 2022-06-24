@@ -35,12 +35,12 @@
                         </li>
                     </ul>
                 </nav>
-                @php
+                <!-- @php
                     $email_link = 'mailto:zhenia.yf@gmail.com';
                 @endphp
                 <div class="header__item1">
                     <a href="{{$email_link}}"><img src="/img/dzig.png"></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
