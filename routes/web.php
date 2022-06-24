@@ -26,5 +26,5 @@ Route::get('/games', 'App\Http\Controllers\MainController@games');
 
 Route::get('/collaboration', 'App\Http\Controllers\MainController@collaboration');
 
-Route::get('/collaboration', 'App\Http\Controllers\MainController@review');
+Route::get('/collaboration', 'App\Http\Controllers\MainController@review')->name('collaboration');
 Route::post('/collaboration/check', 'App\Http\Controllers\MainController@review_check');
